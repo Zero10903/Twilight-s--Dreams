@@ -8,32 +8,49 @@
     <title>Twilight's Dreams</title>
   </head>
   <body>
-    <header id="inicio">
-      <div class="container">
-        <div class="logo">
-          <img src="img/favicon.ico" class="logo__imagen" />
-          <p class="logo__texto">Twilight's Dreams</p>
-        </div>
-        <nav class="navbar texto">
-          <a href="#inicio">Inicio</a>
-          <a href="#sobre-nosotros">Sobre nosotros</a>
-          <a href="#tienda">Tienda</a>
-          <a href="#contactanos">Contáctanos</a>
-          <a href="#">FAQ</a>
-        </nav>
-        <div class="options">
-          <!-- TO DO: añadir un carrito y opciones de usuario (o intentarlo) -->
-        </div>
-      </div>
-    </header>
+    <header id="hero">
+      <nav class="menu menu__container" id="menu">
+        <h1 class="menu__logo">
+          Twilight's<br />
+          Dreams
+        </h1>
+        <ul class="menu__links">
+          <li class="menu__item">
+            <a class="menu__link" href="#sobre-nosotros">Sobre nosotros</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#tienda">Tienda</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contactanos">Contáctanos</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#faq">FAQ</a>
+          </li>
+        </ul>
 
-    <section id="hero">
-      <h1 class="titulo">
-        El producto que quieras<br />
-        al mejor precio y<br />
-        a cualquier lugar del mundo.
-      </h1>
-    </section>
+        <a class="openBtn" href="#menu">
+          <svg
+            class="menu__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+          </svg>
+        </a>
+        <a class="closeBtn" href="#">
+          <svg
+            class="menu__icon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"
+            ></path>
+          </svg>
+        </a>
+      </nav>
+    </header>
 
     <section id="sobre-nosotros">
       <div class="container">

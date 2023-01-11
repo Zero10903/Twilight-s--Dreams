@@ -1,0 +1,25 @@
+@mixin normalizarTodo {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@mixin arreglarFondo {
+  background: {
+    size: cover;
+    repeat: no-repeat;
+    position: center;
+  }
+}
+
+@mixin crearFlexbox($justify, $direction) {
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
