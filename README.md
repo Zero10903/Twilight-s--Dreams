@@ -13,16 +13,16 @@ Para mantener el orden y facilitar la comprensión, tendrás que seguir las norm
 
 ### Las más importantes son:
 
-> fix: se utiliza al arreglar un error.
-> feat: se utiliza al agregar una nueva función o característica.
-> BREAKING CHANGE: se utiliza al realizar un cambio muy grande e importante.
+- fix: se utiliza al arreglar un error.
+- feat: se utiliza al agregar una nueva función o característica.
+- BREAKING CHANGE: se utiliza al realizar un cambio muy grande e importante.
 
 ### Otros tipos que tambien son aceptados:
 
-> perf: cambios que mejoran el rendimiento.
-> style: cambios relacionados al estilo del código en sí (formato, espacios en blanco, etc).
-> refactor: reorganización en el orden del código pero sin cambiar nada más.
-> docs: cambios realizados en la documentación.
+- perf: cambios que mejoran el rendimiento.
+- style: cambios relacionados al estilo del código en sí (formato, espacios en blanco, etc).
+- refactor: reorganización en el orden del código pero sin cambiar nada más.
+- docs: cambios realizados en la documentación.
 
 Además, se puede añadir un "ámbito" al tipo del commit usando parentesis luego de este. Esto ayuda a proveer información contextual adicional sobre el cambio realizado.
 
