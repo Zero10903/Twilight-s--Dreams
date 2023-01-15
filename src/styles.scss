@@ -51,6 +51,10 @@ a {
 //=============================== MENÚ ===============================
 //====================================================================
 
+#menu {
+  transition: 2.5s transform;
+  transform: translateY(-200%);
+}
 .menu {
   --state-openBtn: scale(1);
   --state-closeBtn: scale(0);
@@ -74,7 +78,7 @@ a {
     margin: 0 auto;
     width: 90%;
     max-width: 1200px;
-    overflow: hidden;
+    // overflow: hidden;
   }
   &__logo {
     font-family: "Dancing Script", cursive;

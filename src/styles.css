@@ -54,6 +54,11 @@ a:hover {
   height: 101vh;
 }
 
+#menu {
+  transition: 2.5s transform;
+  transform: translateY(-200%);
+}
+
 .menu {
   --state-openBtn: scale(1);
   --state-closeBtn: scale(0);
@@ -76,7 +81,6 @@ a:hover {
   margin: 0 auto;
   width: 90%;
   max-width: 1200px;
-  overflow: hidden;
 }
 .menu__logo {
   font-family: "Dancing Script", cursive;
