@@ -32,11 +32,11 @@ Además, se puede añadir un "ámbito" al tipo del commit usando parentesis lueg
 
 #### Ejemplos básicos
 
-refactor: reorganized "about us" area.
-feat: new menu responsive.
+- refactor: reorganized "about us" area.
+- feat: new menu responsive.
 
 ---
 
 #### Ejemplo utilizando un ámbito
 
-feat(lang): added spanish language.
+- feat(lang): added spanish language.
