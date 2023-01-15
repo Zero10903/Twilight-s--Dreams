@@ -74,8 +74,8 @@ a:hover {
 .menu:target {
   --state-openBtn: scale(0);
   --state-closeBtn: scale(1);
-  --state-menu: 100vw;
-  --state-opacity: 1;
+  --state-menu: 100%;
+  --state-opacity: 0.85;
 }
 .menu__container {
   margin: 0 auto;
@@ -86,10 +86,16 @@ a:hover {
   font-family: "Dancing Script", cursive;
   font-size: 2rem;
   z-index: 1;
+  text-shadow: var(--sombra-cajas);
+  margin-left: 20px;
 }
 .menu__icon {
   fill: var(--color-terciario);
-  width: 50px;
+  width: 100%;
+  height: 100%;
+}
+.menu__icon:hover {
+  fill: var(--color-primario);
 }
 .menu__links {
   background-color: black;
@@ -123,15 +129,15 @@ a:hover {
   grid-column: -2/-1;
   grid-row: 1/2;
   transition: 0.4s transform;
+  height: 50px;
+  margin-right: 20px;
 }
 
 .openBtn {
-  height: 40px;
   transform: var(--state-openBtn);
 }
 
 .closeBtn {
-  height: 40px;
   transform: var(--state-closeBtn);
 }
 
